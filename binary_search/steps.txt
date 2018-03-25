@@ -1,0 +1,9 @@
+Step1: Create our flags. Our low, high and middle. Low is going to be 0 high is going to be the length of the array -1. 
+The middle is going to be Low and high / 2.
+Step2: while our low which is array[0] < array[high] do the following. Conditional logic....
+if(arr[mid] == valueBeingSearched) then we are done the value has been found.
+if value > arr[mid] then toss out the left side of the array and make low =  mid + 1
+if the value < arr[mid] toss out the right side of the array by making high = mid - 1
+Step3: Sort the array in asc order with whatever built in sort functionality your language has. Ex: array.sort
+
+Thats it you're done. Binary search. 
